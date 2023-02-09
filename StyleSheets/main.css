@@ -1,0 +1,91 @@
+/*General Things*/
+/*Sets font size so rem is able to be used instead of px which makes the website more accessible*/
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-size: 1.6rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 2.24rem;
+  letter-spacing: normal;
+  background-color: #d6d6d6c5;
+}
+
+/* All Navigation */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+#active {
+  background-color: #3b3b3b;
+}
+
+header {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  color: #404040;
+  width: 30%;
+  margin: 50px 0;
+  padding: 12px 10px;
+  text-align: center;
+  border: 2px solid #404040;
+}
+#main-image {
+  width: 40%;
+  margin-left: 5%;
+  border: 2px solid #404040;
+}
+#flex-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.main-section {
+  width: 30%;
+  padding: 0 2.5%;
+  color: #404040;
+  border: 2px solid #404040;
+  background-color: hwb(0 100% 0% / 0.86);
+  text-align: center;
+  float: left;
+}
+p {
+  font-size: 1.8rem;
+  text-align: left;
+}
