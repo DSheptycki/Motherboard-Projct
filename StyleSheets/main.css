@@ -63,6 +63,17 @@ header {
   width: 40%;
   margin-left: 5%;
   border: 2px solid #404040;
+  background-color: hwb(0 100% 0% / 0.86);
+}
+#component-images {
+  width: 40%;
+  margin-left: 5%;
+  border: 2px solid #404040;
+  background-color: hwb(0 100% 0% / 0.86);
+}
+
+#component-images img {
+  width: 100%;
 }
 #flex-container {
   display: -webkit-box;
@@ -88,4 +99,17 @@ header {
 p {
   font-size: 1.8rem;
   text-align: left;
+}
+footer {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  background-color: #111;
+  border-top: 2px solid #888;
+  margin-top: 2%;
+}
+footer p {
+  color: white;
+  text-align: center;
 }
