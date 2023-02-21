@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Components</title>
     <link rel="stylesheet" href="StyleSheets/main.css" />
+    <style>
+      #seperate-section {
+        border-top: 2px solid black;
+        margin-top: 75px;
+        padding-top: 50px;
+      }
+    </style>
   </head>
   <body>
     <nav>
@@ -46,18 +53,28 @@
             additional features to a computer such as video, sound, advanced
             graphics, Ethernet or memory.
           </p>
-          <h2>Connecting the Components</h2>
-          <p>
-            Conductive Wires or traces are used to connect the electronic
-            components to a motherboard. These wires act as tracks for
-            electricity to flow through between components on a motherboard.
-            They are the paths for data to travel on the motherboard. These are
-            the lines that you see on a motherboard.
-          </p>
+          <div id="seperate-section">
+            <h2>Connecting the Components</h2>
+            <p>
+              Conductive Wires or traces are used to connect the electronic
+              components to a motherboard. These wires act as tracks for
+              electricity to flow through between components on a motherboard.
+              They are the paths for data to travel and these are the lines that
+              you see on a motherboard. For the way that peices are physically
+              applied to the motherboard, there are 2 main methods. Firstly
+              there are sockets in which things can be applied and inserted such
+              as the CPU socket or the RAM slots. And secondly components such
+              as the 24-pin connectors or the I/O ports are soldered onto the
+              motherboard during the Surface Mount Technology (SMT) phase of
+              building the motherboard.
+            </p>
+          </div>
         </div>
         <div id="component-images">
           <img src="Images/MotherboardBreakdown.jpg" />
-          <img src="Images/Bottom-Of-Motherboard.jpg" />
+          <img
+            src="Images/Bottom-Of-Motherboard.jpg"
+            style="margin-top: 30px" />
         </div>
       </section>
     </main>
